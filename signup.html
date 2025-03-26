@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Create Account</h2>
+            <form action="login.html" method="GET">
+                <div class="input-row">
+                    <div class="input-group small-input">
+                        <label for="first-name"><i class="fa fa-user"></i></label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="input-group small-input">
+                        <label for="last-name"><i class="fa fa-user"></i></label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    </div>
+                </div>
+            
+                <div class="input-group large-input">
+                    <label for="email"><i class="fa fa-envelope"></i></label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-group large-input">
+                    <label for="password"><i class="fa fa-lock"></i></label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+            
+                <button type="submit" class="btn">Sign Up</button>
+                <p class="login-text">Already have an account? <a href="login.html">Login</a></p>
+            </form>
+            
+
+            <div class="or-divider">
+                <div class="line"></div>
+                <span>OR</span>
+                <div class="line"></div>
+            </div>
+            
+            
+            <div class="social-buttons">
+                <button class="google-btn">
+                    <img src="../images/Google.png" alt="Google Logo">
+                    Sign up with Google
+                </button>
+                <button class="facebook-btn">
+                    <img src="../images/Facebook.png" alt="Facebook Logo">
+                    Sign up with Facebook
+                </button>
+            </div>            
+        </div>
+
+        <div class="image-container">
+            <img src="../images/Logo.png" alt="Logo" class="logo">
+            <img src="../images/player.png" alt="Player" class="player-image">
+            <h3>Empowers <br> Your Skills</h3>
+        </div>
+        
+    </div>
+</body>
+</html>
